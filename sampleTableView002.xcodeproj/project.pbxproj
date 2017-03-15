@@ -14,6 +14,7 @@
 		19E0ED7E1E790366008741FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19E0ED7C1E790366008741FE /* LaunchScreen.storyboard */; };
 		19E0ED891E790367008741FE /* sampleTableView002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E0ED881E790367008741FE /* sampleTableView002Tests.swift */; };
 		19E0ED941E790367008741FE /* sampleTableView002UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E0ED931E790367008741FE /* sampleTableView002UITests.swift */; };
+		19E0EDA21E790DA6008741FE /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E0EDA11E790DA6008741FE /* secondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		19E0ED8F1E790367008741FE /* sampleTableView002UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTableView002UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E0ED931E790367008741FE /* sampleTableView002UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTableView002UITests.swift; sourceTree = "<group>"; };
 		19E0ED951E790367008741FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19E0EDA11E790DA6008741FE /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				19E0ED7A1E790366008741FE /* Assets.xcassets */,
 				19E0ED7C1E790366008741FE /* LaunchScreen.storyboard */,
 				19E0ED7F1E790366008741FE /* Info.plist */,
+				19E0EDA11E790DA6008741FE /* secondViewController.swift */,
 			);
 			path = sampleTableView002;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19E0ED761E790366008741FE /* ViewController.swift in Sources */,
+				19E0EDA21E790DA6008741FE /* secondViewController.swift in Sources */,
 				19E0ED741E790366008741FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
